@@ -1,4 +1,4 @@
-import { lazy, FC, useEffect, useState } from "react";
+import { lazy, useEffect, useState } from "react";
 import axios from "axios";
 import { Row } from "antd";
 
@@ -18,13 +18,12 @@ const Homepage: FC = () => {
           import.meta.env.VITE_REACT_APP_NEWS_KEY
         }&pageSize=12&$page=${page}`
       );
-      console.log(result);
+
       setNews(result.data.articles);
       const newPage = page + 1;
       setPage(newPage);
-      console.log(news);
     } catch (error: any) {
-      console.log(error.message);
+      alert(error.message);
     }
   };
 
