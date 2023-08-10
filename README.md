@@ -10,7 +10,7 @@
 </p>
 <li>News Website</li>
 <p>
-This project is a news site about films 
+This project is a news site about films. 
 </p>
 </ol>
 
