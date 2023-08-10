@@ -2,8 +2,6 @@ import { lazy, FC, useEffect, useState } from "react";
 import axios from "axios";
 import { Row } from "antd";
 
-import { newsType } from "../types/news";
-
 const NewsCard = lazy(() => import("../components/NewsCard"));
 const Load = lazy(() => import("../components/LoadMore"));
 
