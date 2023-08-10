@@ -1,4 +1,4 @@
-import { lazy, useEffect, useState } from "react";
+import { lazy, FC, useEffect, useState } from "react";
 import axios from "axios";
 import { Row } from "antd";
 
