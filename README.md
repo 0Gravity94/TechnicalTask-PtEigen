@@ -1,4 +1,4 @@
-# Welcom!
+# Welcome!
 
 <h3>This is technical test for PT Eigen Tri Mathema</h3>
 
